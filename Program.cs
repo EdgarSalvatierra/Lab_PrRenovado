@@ -17,7 +17,7 @@ namespace Lab_Pr
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMDI());
+            Application.Run(new FrmLogin());
         }
     }
 }

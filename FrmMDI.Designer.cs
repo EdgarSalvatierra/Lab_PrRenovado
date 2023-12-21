@@ -36,7 +36,6 @@
             this.tbUsuarios = new System.Windows.Forms.TabPage();
             this.cardusuarios = new MaterialSkin.Controls.MaterialCard();
             this.BtnBuscar = new FontAwesome.Sharp.IconButton();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.tpFacturacion = new System.Windows.Forms.TabPage();
             this.tpCompras = new System.Windows.Forms.TabPage();
             this.tpreservaciondecitas = new System.Windows.Forms.TabPage();
@@ -75,13 +74,13 @@
             this.materialTabControl1.Depth = 0;
             this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialTabControl1.ImageList = this.imageList1;
-            this.materialTabControl1.Location = new System.Drawing.Point(2, 52);
+            this.materialTabControl1.Location = new System.Drawing.Point(0, 64);
             this.materialTabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.materialTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabControl1.Multiline = true;
             this.materialTabControl1.Name = "materialTabControl1";
             this.materialTabControl1.SelectedIndex = 0;
-            this.materialTabControl1.Size = new System.Drawing.Size(643, 383);
+            this.materialTabControl1.Size = new System.Drawing.Size(645, 371);
             this.materialTabControl1.TabIndex = 0;
             // 
             // tpHome
@@ -104,7 +103,7 @@
             this.tbUsuarios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbUsuarios.Name = "tbUsuarios";
             this.tbUsuarios.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tbUsuarios.Size = new System.Drawing.Size(635, 356);
+            this.tbUsuarios.Size = new System.Drawing.Size(637, 344);
             this.tbUsuarios.TabIndex = 1;
             this.tbUsuarios.Text = "Usuarios";
             this.tbUsuarios.UseVisualStyleBackColor = true;
@@ -115,7 +114,6 @@
             this.cardusuarios.Controls.Add(this.BtnBuscar);
             this.cardusuarios.Controls.Add(this.textBox1);
             this.cardusuarios.Controls.Add(this.iconPictureBox1);
-            this.cardusuarios.Controls.Add(this.materialLabel1);
             this.cardusuarios.Depth = 0;
             this.cardusuarios.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cardusuarios.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -124,7 +122,7 @@
             this.cardusuarios.MouseState = MaterialSkin.MouseState.HOVER;
             this.cardusuarios.Name = "cardusuarios";
             this.cardusuarios.Padding = new System.Windows.Forms.Padding(10, 11, 10, 11);
-            this.cardusuarios.Size = new System.Drawing.Size(631, 352);
+            this.cardusuarios.Size = new System.Drawing.Size(633, 340);
             this.cardusuarios.TabIndex = 0;
             // 
             // BtnBuscar
@@ -142,19 +140,6 @@
             this.BtnBuscar.Size = new System.Drawing.Size(37, 32);
             this.BtnBuscar.TabIndex = 2;
             this.BtnBuscar.UseVisualStyleBackColor = false;
-            // 
-            // materialLabel1
-            // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(50, 36);
-            this.materialLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(123, 19);
-            this.materialLabel1.TabIndex = 0;
-            this.materialLabel1.Text = "Lista de Usuarios";
             // 
             // tpFacturacion
             // 
@@ -247,7 +232,7 @@
             this.DrawerTabControl = this.materialTabControl1;
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmMDI";
-            this.Padding = new System.Windows.Forms.Padding(2, 52, 2, 2);
+            this.Padding = new System.Windows.Forms.Padding(0, 64, 2, 2);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal";
             this.Load += new System.EventHandler(this.FrmMDI_Load);
@@ -271,7 +256,6 @@
         private System.Windows.Forms.TabPage tpgestiondeexamenes;
         private System.Windows.Forms.TabPage tpconfiguracion;
         private MaterialSkin.Controls.MaterialCard cardusuarios;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private FontAwesome.Sharp.IconButton BtnBuscar;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
         private System.Windows.Forms.TextBox textBox1;
