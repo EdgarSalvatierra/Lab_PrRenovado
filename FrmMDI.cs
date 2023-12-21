@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MaterialSkin.Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,11 +11,15 @@ using System.Windows.Forms;
 
 namespace Lab_Pr
 {
-    public partial class FrmMDI : Form
-    {
+    public partial class FrmMDI : MaterialForm
+    { 
         public FrmMDI()
         {
-            InitializeComponent();
+            InitializeComponent();  
+        }
+        private void FrmMDI_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
