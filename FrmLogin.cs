@@ -22,5 +22,12 @@ namespace Lab_Pr
         {
 
         }
+
+        private void BtnIngresar_Click(object sender, EventArgs e)
+        {
+            FrmMDI m = new FrmMDI();
+            m.Show();
+            this.Hide();
+        }
     }
 }

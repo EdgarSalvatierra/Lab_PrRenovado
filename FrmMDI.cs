@@ -21,5 +21,11 @@ namespace Lab_Pr
         {
 
         }
+
+        private void materialButton1_Click(object sender, EventArgs e)
+        {
+            FrmConfiguracion fr = new FrmConfiguracion();
+            fr.Show();
+        }
     }
 }

@@ -44,11 +44,11 @@
             this.ICNUser.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
             this.ICNUser.IconColor = System.Drawing.SystemColors.ControlText;
             this.ICNUser.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.ICNUser.IconSize = 111;
-            this.ICNUser.Location = new System.Drawing.Point(163, 83);
-            this.ICNUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ICNUser.IconSize = 125;
+            this.ICNUser.Location = new System.Drawing.Point(183, 104);
+            this.ICNUser.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ICNUser.Name = "ICNUser";
-            this.ICNUser.Size = new System.Drawing.Size(111, 113);
+            this.ICNUser.Size = new System.Drawing.Size(125, 141);
             this.ICNUser.TabIndex = 9;
             this.ICNUser.TabStop = false;
             // 
@@ -60,20 +60,21 @@
             this.BtnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnIngresar.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnIngresar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnIngresar.Location = new System.Drawing.Point(84, 458);
-            this.BtnIngresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnIngresar.Location = new System.Drawing.Point(94, 572);
+            this.BtnIngresar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnIngresar.Name = "BtnIngresar";
-            this.BtnIngresar.Size = new System.Drawing.Size(308, 58);
+            this.BtnIngresar.Size = new System.Drawing.Size(346, 72);
             this.BtnIngresar.TabIndex = 14;
             this.BtnIngresar.Text = "Ingresar al Sistema";
             this.BtnIngresar.UseVisualStyleBackColor = false;
+            this.BtnIngresar.Click += new System.EventHandler(this.BtnIngresar_Click);
             // 
             // materialLabel3
             // 
             this.materialLabel3.AutoSize = true;
             this.materialLabel3.Depth = 0;
             this.materialLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel3.Location = new System.Drawing.Point(33, 357);
+            this.materialLabel3.Location = new System.Drawing.Point(37, 446);
             this.materialLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
@@ -86,7 +87,7 @@
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel2.Location = new System.Drawing.Point(33, 254);
+            this.materialLabel2.Location = new System.Drawing.Point(37, 318);
             this.materialLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
@@ -103,8 +104,8 @@
             this.TxtUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.TxtUser.HideSelection = true;
             this.TxtUser.LeadingIcon = null;
-            this.TxtUser.Location = new System.Drawing.Point(125, 238);
-            this.TxtUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtUser.Location = new System.Drawing.Point(141, 298);
+            this.TxtUser.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TxtUser.MaxLength = 32767;
             this.TxtUser.MouseState = MaterialSkin.MouseState.OUT;
             this.TxtUser.Name = "TxtUser";
@@ -116,7 +117,7 @@
             this.TxtUser.SelectionLength = 0;
             this.TxtUser.SelectionStart = 0;
             this.TxtUser.ShortcutsEnabled = true;
-            this.TxtUser.Size = new System.Drawing.Size(254, 48);
+            this.TxtUser.Size = new System.Drawing.Size(286, 48);
             this.TxtUser.TabIndex = 11;
             this.TxtUser.TabStop = false;
             this.TxtUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -132,8 +133,8 @@
             this.TxtContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.TxtContraseña.HideSelection = true;
             this.TxtContraseña.LeadingIcon = null;
-            this.TxtContraseña.Location = new System.Drawing.Point(125, 343);
-            this.TxtContraseña.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtContraseña.Location = new System.Drawing.Point(141, 429);
+            this.TxtContraseña.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TxtContraseña.MaxLength = 32767;
             this.TxtContraseña.MouseState = MaterialSkin.MouseState.OUT;
             this.TxtContraseña.Name = "TxtContraseña";
@@ -145,7 +146,7 @@
             this.TxtContraseña.SelectionLength = 0;
             this.TxtContraseña.SelectionStart = 0;
             this.TxtContraseña.ShortcutsEnabled = true;
-            this.TxtContraseña.Size = new System.Drawing.Size(254, 48);
+            this.TxtContraseña.Size = new System.Drawing.Size(286, 48);
             this.TxtContraseña.TabIndex = 10;
             this.TxtContraseña.TabStop = false;
             this.TxtContraseña.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -154,18 +155,18 @@
             // 
             // FrmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(461, 546);
+            this.ClientSize = new System.Drawing.Size(519, 682);
             this.Controls.Add(this.BtnIngresar);
             this.Controls.Add(this.materialLabel3);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.TxtUser);
             this.Controls.Add(this.TxtContraseña);
             this.Controls.Add(this.ICNUser);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmLogin";
-            this.Padding = new System.Windows.Forms.Padding(4, 79, 4, 4);
+            this.Padding = new System.Windows.Forms.Padding(4, 99, 4, 5);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "                            Inicio Sesion";
             this.Load += new System.EventHandler(this.FrmLogin_Load);

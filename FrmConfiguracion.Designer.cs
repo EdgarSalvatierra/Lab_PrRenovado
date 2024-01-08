@@ -31,6 +31,8 @@
             this.materialCheckbox3 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialCheckbox4 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialCheckbox5 = new MaterialSkin.Controls.MaterialCheckbox();
+            this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.CrystalReport11 = new Lab_Pr.CrystalReport1();
             this.SuspendLayout();
             // 
             // materialCheckbox3
@@ -78,12 +80,28 @@
             this.materialCheckbox5.Text = "materialCheckbox5";
             this.materialCheckbox5.UseVisualStyleBackColor = true;
             // 
+            // crystalReportViewer1
+            // 
+            this.crystalReportViewer1.ActiveViewIndex = 0;
+            this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.crystalReportViewer1.Location = new System.Drawing.Point(3, 80);
+            this.crystalReportViewer1.Name = "crystalReportViewer1";
+            this.crystalReportViewer1.ReportSource = this.CrystalReport11;
+            this.crystalReportViewer1.Size = new System.Drawing.Size(1081, 650);
+            this.crystalReportViewer1.TabIndex = 0;
+            this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
+            // 
             // FrmConfiguracion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(849, 470);
+            this.ClientSize = new System.Drawing.Size(1087, 734);
+            this.Controls.Add(this.crystalReportViewer1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FrmConfiguracion";
+            this.Padding = new System.Windows.Forms.Padding(3, 80, 3, 4);
             this.Text = "Configuracion del Sistema";
             this.Load += new System.EventHandler(this.FrmConfiguracion_Load);
             this.ResumeLayout(false);
@@ -95,5 +113,7 @@
         private MaterialSkin.Controls.MaterialCheckbox materialCheckbox3;
         private MaterialSkin.Controls.MaterialCheckbox materialCheckbox4;
         private MaterialSkin.Controls.MaterialCheckbox materialCheckbox5;
+        private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
+        private CrystalReport1 CrystalReport11;
     }
 }
